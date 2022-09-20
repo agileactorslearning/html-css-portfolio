@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Generic */
+html, 
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.text-light {
+    color: #ffffff;
+}
+
+/* Header */
+
+.header {
+    background-color: #1abc9c;
+    text-align: center;
+    padding: 140px 0 20px;
+    font-size: 32px;
+}
+
+.header-avatar {
+    max-width: 240px;
+}
+
+/* Copy */
+.footer-copy {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+}
