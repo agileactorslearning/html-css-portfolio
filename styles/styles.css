@@ -241,6 +241,42 @@ h2 {
     background: #1abc9c;
 }
 
+/* Footer */
+.footer {
+    background-color: #2c3e50;
+}
+
+.footer-container {
+    display: flex;
+    padding: 0 20px 30px;
+}
+
+.footer-item {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    font-size: 20px;
+}
+
+.footer-social {
+    padding-top: 20px;
+}
+
+.footer .btn {
+    border-radius: 50%;
+    width:25px;
+    height: 25px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
 /* Copy */
 .footer-copy {
     background-color: #333333;
