@@ -27,6 +27,19 @@ h2 {
     margin-bottom: 0;
 }
 
+.btn {
+    font-size: 24px;
+    border: 2px solid currentColor;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.5);
+    color: #1abc9c;
+}
+
 .text-light {
     color: #ffffff;
 }
@@ -116,6 +129,40 @@ h2 {
 
 .header-avatar {
     max-width: 240px;
+}
+
+/* About */
+.about {
+    background-color: #1abc9c;
+    padding: 40px;
+}
+
+.about-title {
+    margin: 0;
+}
+
+.about-text {
+    display: flex;
+}
+
+.about-text p {
+    flex: 1 1 30%;
+    padding: 10px;
+    max-width: 30%;
+    font-size: 20px;
+}
+
+.about-text p:first-child {
+    margin-left: auto;
+}
+
+.about-text p:last-child {
+    margin-right: auto;
+}
+
+.about .btn-container {
+    padding: 10px 0;
+    text-align: center;
 }
 
 /* Copy */
